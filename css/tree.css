@@ -1,0 +1,54 @@
+:root{
+    --main_color:white;
+}
+body,html{
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+    background-image: url('../img/forestbridge.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+  
+}
+.project{
+    color: var(--main_color);
+ 
+
+}
+/* .contaner{
+    padding: 15px;
+} */
+.logo{
+    font-size: 24px;
+    position: absolute;
+    padding: 14px 24px;
+}
+.all{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.when{
+    font-size: 64px;
+    padding-bottom: 10px;
+}
+hr{
+    width: 40%;
+    border: 0;
+    border-top: solid white 1px;
+}
+.days{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.power{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    color: var(--main_color);
+    padding: 14px 24px;
+    font-size: 15px;
+}
